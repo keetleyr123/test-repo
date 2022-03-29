@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>cats are unique</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/catlogo.png" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="cats.html">ADOPTION</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>What you can do to make a difference in 2022</h1>
+    </section>
+
+    <!-------- blog page content ----->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/cats 5.jpg" />
+          <h2>What you can do to make a difference in 2022</h2>
+          <p>
+            We told you all about what we do in order to help our kittens feel
+            safe and protected as well as loved. Now we need to know what it is
+            that you will do to help these kittens find a home. Adopt Today!
+          </p>
+          <br />
+          <p>
+            Kittens need all the love and attention they can get so what are you
+            waiting for?! Adopt today and be the difference in your community
+            and to these loving animals!
+          </p>
+          <br />
+          <p>
+            We will provide all the shots and food to get you started as well as
+            make sure there is nothing wrong with your kitten and we also will
+            include a free toy as well!
+          </p>
+          <br />
+          <p>
+            If you know of any other friends or family that are willing to adopt
+            spread the word and let them know! also feel free to let us know
+            what you think!
+          </p>
+
+          <div class="comment-box">
+
+              <h3>Leave a comment</h3>
+
+              <form class="comment-form">
+                  <input type="text" placeholder="Enter Name">
+                  <input type="email" placeholder="Enter Email">
+                  <textarea rows="5" placeholder="Your comment"></textarea>
+                  <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+              </form>
+
+          </div>
+
+
+
+        </div>
+        <div class="blog-right">
+        <h3>Cat Breeds</h3>
+        <div>
+          <span>American Shorthair</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>British Shorthair</span>
+          <span>7</span>
+        </div>
+        <div>
+          <span>Maine Coon</span>
+          <span>11</span>
+        </div>
+        <div>
+          <span>Manx</span>
+          <span>8</span>
+        </div>
+        <div>
+          <span>Siberian</span>
+          <span>12</span>
+        </div>
+        <div>
+          <span>Sphinx</span>
+          <span>9</span>
+        </div>
+      </div>
+    </section>
+
+    <!--- --footer ---->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        We are a proud shelter unlike so many out there we stand out amongst the
+        rest<br />not only with how we not only treat our kittens but how we
+        make sure they get the proper care and treatment they truly deserve.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> By Easy Tutorials</p>
+    </section>
+
+    <!----javascript for toggle menu----->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+
+      function showmenu() {
+        navlinks.style.right = "0";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

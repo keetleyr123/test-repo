@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>cats are unique</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/catlogo.png" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">BREEDS</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Cats Are The Best Pets</h1>
+        <p>
+          cats are so easy to take care of. all you need to do is provide them
+          with food,<br />water and a place to go to the bathroom.
+        </p>
+        <a href="" class="hero-btn">let me know your thoughts</a>
+      </div>
+    </section>
+
+
+<!----javascript for toggle menu----->
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showmenu(){
+        alert("Dogs");
+
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px"; 
+    }
+
+</script>
+
+  </body>
+</html>
